@@ -1,0 +1,4 @@
+C:\Users\46159086871\Desktop\BackEndMoura\execicio16\obj\Debug\net9.0\execicio16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46159086871\Desktop\BackEndMoura\execicio16\obj\Debug\net9.0\execicio16.AssemblyInfoInputs.cache
+C:\Users\46159086871\Desktop\BackEndMoura\execicio16\obj\Debug\net9.0\execicio16.AssemblyInfo.cs
+C:\Users\46159086871\Desktop\BackEndMoura\execicio16\obj\Debug\net9.0\execicio16.csproj.CoreCompileInputs.cache
