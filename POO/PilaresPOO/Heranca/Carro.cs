@@ -13,6 +13,6 @@ namespace Heranca
             Console.WriteLine($"Ano: {Ano}");
             Console.WriteLine($"Quantas portas: {qtdPortas}");
         }
-        
+         
     }
 }

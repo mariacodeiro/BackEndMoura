@@ -1,5 +1,6 @@
 ﻿
- using PrimeiraClasse;
+using System.ComponentModel.DataAnnotations;
+using PrimeiraClasse;
 
  Console.WriteLine($"===== PROGRAMA PRIMEIRA CLASSE =====");
 // Carro mclaren = new Carro();
@@ -32,8 +33,16 @@
 // Stanley.cor = "azul goiaba";
 // Stanley.Capacidade = "500ml";
 
-Pessoa edu = new Pessoa();
-edu.Nome =
+Pessoa madu = new Pessoa();
+madu.Nome = "Maria Eduarda";
+madu.Altura = 155;
+
+Console.WriteLine($"{madu.Nome} tem {madu.Idade} anos");
+madu.Envelhecer();
+Console.WriteLine($"{madu.Nome} TimeOnly {madu.Idade} anos");
+
+
+
 
 
 
