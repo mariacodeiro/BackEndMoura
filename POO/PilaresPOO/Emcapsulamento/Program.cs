@@ -16,19 +16,24 @@ string Encapsulamento;
 // Console.WriteLine($"Saldo atual do edu: R${contaEdu.GetSaldo}");
 // Console.WriteLine($"Saldo atual da maria: R${contaMadu.GetSaldo}");
 
-{
-    
+
+    static void Main(string[] args)
     {
-        Carro Carro = new Carro();
+        Carro meuCarro = new Carro();
 
-        Carro.DefinirMarca("fiat");
-        Carro.DefinirModelo("Corolla");
+        // Definindo marca e modelo
+        meuCarro.DefinirMarca("Toyota");
+        meuCarro.DefinirModelo("Corolla");
 
-        Carro.Acelerar(30);
-        Carro.Acelerar(20);
-        Carro.Frear(10);
-        Carro.Frear(50); 
+        // Ações no carro
+        meuCarro.Acelerar(30);
+        meuCarro.Acelerar(20);
+        meuCarro.Frear(10);
+        meuCarro.Frear(50); // não pode ficar abaixo de zero
 
-       
+        // Exibindo dados
+        Console.WriteLine("Marca: " + meuCarro.ObterMarca());
+        Console.WriteLine("Modelo: " + meuCarro.ObterModelo());
+        Console.WriteLine("Velocidade Atual: " + meuCarro.ObterVelocidade() + " km/h");
     }
-}
+
